@@ -27,11 +27,13 @@ course.
 In July 2012, I created a [Facebook page](https://www.facebook.com/pg/Computer-Networking-Principles-Protocols-and-Practice-129951043755620/about/?ref=page_internal) dedicated to [Computer Networking: Principles,
 Protocols and Practice](http://cnp3book.info.ucl.ac.be) to inform students about noteworthy information on the evolution of the networking field in general. 
 I've posted news and pointers on a regular basis on this [Facebook page](https://www.facebook.com/pg/Computer-Networking-Principles-Protocols-and-Practice-129951043755620/about/?ref=page_internal) but over the years, I became more and more frustrated by the Facebook's walled garden approach and all their attempts 
-to monetize even a web page about an open-source ebook.
+to monetize even a web page about an open-source ebook. Facebook's algorithms 
+select who will see each content that has been posted on this page and I cannot easily retrieve all the posts that I wrote on this page during the last five years.
 
 It's time to go back to pure web based services. Starting from the 2017-2018
 academic year, all posts related to [Computer Networking: Principles,
 Protocols and Practice](http://cnp3book.info.ucl.ac.be) will appear on this blog. Pointers will be posted on the [Facebook page](https://www.facebook.com/pg/Computer-Networking-Principles-Protocols-and-Practice-129951043755620/about/?ref=page_internal), but readers are strongly encouraged to use RSS readers to follow the posts instead of spending so much time on Facebook and other walled gardens disguised as social networks.
 
+This blog is written in [jekyll](https://jekyllrb.com) and hosted on [GitHub](https://github.com). All posts are available from [https://github.com/obonaventure/cnp3blog](https://github.com/obonaventure/cnp3blog).
 
-[Olivier Bonaventure](http://perso.uclouvain.be/olivier.bonaventure)
+[Olivier Bonaventure](https://perso.uclouvain.be/olivier.bonaventure/blog/html/pages/bio.html)
