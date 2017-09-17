@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WiFi fuels web site growths
+title: WiFi fuels web site growth
 tag: wifi, smartphone, tablet, mobile
 ---
 
