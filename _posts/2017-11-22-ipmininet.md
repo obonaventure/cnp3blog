@@ -89,7 +89,7 @@ The configuration of the links between the routers and the hosts follows a simil
 
 The entire script is available from [https://github.com/obonaventure/RoutingExamples/blob/master/static/simple.py](https://github.com/obonaventure/RoutingExamples/blob/master/static/simple.py)
 
-To help students to start using [IPMininet](https://github.com/oliviertilmans/ipmininet), [Mathieu Jadin]((https://inl.info.ucl.ac.be/mjadin) has created a `Vagrant box` that launches a Ubuntu virtual machine will all the required software. You can access the VagrantFile and the associated puppet manifests from [https://github.com/obonaventure/RoutingExamples](https://github.com/obonaventure/RoutingExamples)
+To help students to start using [IPMininet](https://github.com/oliviertilmans/ipmininet), [Mathieu Jadin](https://inl.info.ucl.ac.be/mjadin) has created a [Vagrant box](https://www.vagrantup.com/docs/index.html) that launches a Ubuntu virtual machine will all the required software. You can access the VagrantFile and the associated puppet manifests from [https://github.com/obonaventure/RoutingExamples](https://github.com/obonaventure/RoutingExamples)
 
 Here is a simple example of the utilisation of this Vagrant box.
 
