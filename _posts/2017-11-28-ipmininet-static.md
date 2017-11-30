@@ -5,7 +5,7 @@ tag: IPv6, ICMPv6, static routing
 author: Olivier Bonaventure
 ---
 
-In a [previous post]{https://obonaventure.github.io/cnp3blog/ipmininet} we have shown that [IPMininet](https://github.com/oliviertilmans/ipmininet)
+In a [previous post](https://obonaventure.github.io/cnp3blog/ipmininet) we have shown that [IPMininet](https://github.com/oliviertilmans/ipmininet)
 can be used to develop exercises that enable students to explore how IPv6 routers forward
 packets. We used a simple example with only three routers and very simple static routes. In this
 post, we build a larger network and introduce different static routes on the main routers.
