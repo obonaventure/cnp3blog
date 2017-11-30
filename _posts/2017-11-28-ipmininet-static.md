@@ -5,7 +5,7 @@ tag: IPv6, ICMPv6, static routing
 author: Olivier Bonaventure
 ---
 
-In a [previous post]{ } we have shown that [IPMininet](https://github.com/oliviertilmans/ipmininet)
+In a [previous post]{https://obonaventure.github.io/cnp3blog/ipmininet} we have shown that [IPMininet](https://github.com/oliviertilmans/ipmininet)
 can be used to develop exercises that enable students to explore how IPv6 routers forward
 packets. We used a simple example with only three routers and very simple static routes. In this
 post, we build a larger network and introduce different static routes on the main routers.
@@ -198,7 +198,7 @@ do
 done
 ```
 
-Another network scenario is provided in {static-err.py}(https://github.com/obonaventure/RoutingExamples/blob/master/static/static-err.py). This scenario uses the
+Another network scenario is provided in [static-err.py](https://github.com/obonaventure/RoutingExamples/blob/master/static/static-err.py). This scenario uses the
 same network topology and IPv6 addresses, but the static routes are different.
 
 ```console
@@ -243,7 +243,9 @@ fe80::/64 dev rb-eth1  proto kernel  metric 256  pref medium
 fe80::/64 dev rb-eth2  proto kernel  metric 256  pref medium
 ```
 
-In these routing tables, note the length of the different prefixes. 
+In these routing tables, note the length of the different prefixes. When analysing how
+packets are forwarded by each router, remember that they use the most specific match in the
+routing table.
 
 
 
