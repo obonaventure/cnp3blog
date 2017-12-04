@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: Exploring OSPFv3 routing with IPMininet
 tag: IPv6, OSPF
@@ -297,7 +297,7 @@ ICMPv6 Network Unreachable message instead of the expected HopLimit Exceeded.
 
 Let us now observe what happens when we enable the link between `ra` and `rb`. 
 This link has been shutdown on router `ra`. Before reactivating this link,
-the start a `tcpdump` packet capture with ` tcpdump -i rb-eth0 -n -vvv`.
+the start a `tcpdump` packet capture with `tcpdump -i rb-eth0 -n -vvv`.
 
 We can now reactivate the link with `ra ip link set dev ra-eth0 up`. On router `rb`, we
 first observe the transmission of its Hello packet :
@@ -487,5 +487,5 @@ mininet> re ip link set dev re-eth1 up
 
 At this point, the entire network is up again and all nodes can ping each other.
 
-Suggestions on exercises to let students learn OSPFv3 are welcome as [pull requests](https://github.com/obonaventure/RoutingExamples/pulls] or [issues](https://github.com/obonaventure/RoutingExamples/issues) in the [RoutingExamples](https://github.com/obonaventure/RoutingExamples/) project on GitHub.
+Suggestions on exercises to let students learn OSPFv3 are welcome as [pull requests](https://github.com/obonaventure/RoutingExamples/pulls) or [issues](https://github.com/obonaventure/RoutingExamples/issues) in the [RoutingExamples](https://github.com/obonaventure/RoutingExamples/) project on GitHub.
 
