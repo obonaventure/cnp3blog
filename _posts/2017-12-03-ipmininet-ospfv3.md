@@ -9,7 +9,9 @@ In this post, we continue our exploration of using
 [IPMininet](https://github.com/oliviertilmans/ipmininet) to prepare
 exercises that enable students to discover IPv6 routing. Our focus is
 now on OSPFv3 defined in [RFC5340](https://tools.ietf.org/html/rfc5340). 
-We consider a simple network that contains four routers and two hosts.
+We consider a simple network that contains four routers and two hosts. 
+The network is created by the [ospfv3_example.py](https://github.com/obonaventure/RoutingExamples/blob/master/ospfv3/ospfv3-example.py) script from the
+[Routing Examples](https://github.com/obonaventure/RoutingExamples/) project.
 
 ```console
 
