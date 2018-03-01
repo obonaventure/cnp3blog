@@ -20,7 +20,7 @@ Google's [transparency report](https://transparencyreport.google.com/https/overv
 early 2018, Chrome users use HTTPS to interact with more than 2/3 of the existing web
 sites.
 
-![https://transparencyreport.google.com/https/overview?hl=en]({{ site.baseurl }}/images/https-stats.png)
+![https://transparencyreport.google.com/https/overview?hl=en]({{ site.baseurl }}/images/https-stat.png)
 
 This fast growths of HTTPS is likely a consequence of several factors. The Snowden revelations
 have encouraged more system administrators to enable HTTPS on their servers. This large scale
