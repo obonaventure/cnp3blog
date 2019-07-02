@@ -11,6 +11,6 @@ Another factor that contributes to the complexity of configuring TLS is that the
 
 To simplify the installation of secure TLS webservers, [Mozilla](https://www.mozilla.com) has recently released a website that allows to automatically generate the configuration for OpenSSL and a dozen of different web servers and proxies. See [https://ssl-config.mozilla.org/](https://ssl-config.mozilla.org/)
 
-
+![Mozilla's TLS configurator]({{ site.baseurl }}/images/tls-mozilla.png)
 
 *This blog post was written to inform the readers of [Computer Networking : Principles, Protocols and Practice](https://www.computer-networking.info) about the evolution of the field. You can subscribe to the Atom feed for this blog at [https://obonaventure.github.io/cnp3blog/feed.xml](https://obonaventure.github.io/cnp3blog/feed.xml). These notes are also posted on [the ebook's Facebook page](https://www.facebook.com/Computer-Networking-Principles-Protocols-and-Practice-129951043755620/)*
