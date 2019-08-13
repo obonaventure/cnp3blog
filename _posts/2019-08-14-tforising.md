@@ -5,7 +5,7 @@ tag: tcp
 author: Olivier Bonaventure
 ---
 
-[https://www.computer-networking.info/2nd/html/protocols/tcp.html](TCP) Fast Open is a TCP extension that enables client and servers to place data inside the SYN and SYN+ACK packets during the three-way handshake. This extension has been pushed by google to speedup short transfers. It is defined in [RFC7413]() and its Linux implementation is described in a [nice LWN.net article](https://old.lwn.net/Articles/508865/).
+[TCP](https://www.computer-networking.info/2nd/html/protocols/tcp.html) Fast Open is a TCP extension that enables client and servers to place data inside the SYN and SYN+ACK packets during the three-way handshake. This extension has been pushed by google to speedup short transfers. It is defined in [RFC7413]() and its Linux implementation is described in a [nice LWN.net article](https://old.lwn.net/Articles/508865/).
 
 Despite being supported by Linux and Apple, it has not yet been widely deployed on servers. [Recent measurements](https://twitter.com/netray_io/status/1160954722074943488?s=09) collected by [netray.io](https://netray.io) show that a growing number of servers support TFO.
 
