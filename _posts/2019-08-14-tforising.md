@@ -13,6 +13,4 @@ Despite being supported by Linux and Apple, it has not yet been widely deployed 
 ![TFO is rising]({{ site.baseurl }}/images/tforising.png)
 - source: [https://twitter.com/netray_io/status/1160954722074943488?s=09](https://twitter.com/netray_io/status/1160954722074943488?s=09)
 
-
-
-*This blog post was written to inform the readers of [Computer Networking : Principles, Protocols and Practice](https://www.computer-networking.info) about the evolution of the field. You can subscribe to the Atom feed for this blog at [https://obonaventure.github.io/cnp3blog/feed.xml](https://obonaventure.github.io/cnp3blog/feed.xml). These notes are also posted on [the ebook's Facebook page](https://www.facebook.com/Computer-Networking-Principles-Protocols-and-Practice-129951043755620/)*
+*This blog post was written to inform the readers of [Computer Networking: Principles, Protocols and Practice](https://www.computer-networking.info) about the evolution of the field. You can subscribe to the [Atom feed for this blog](http://blog.computer-networking.info/feed.xml). These notes are also posted on [the ebook's Facebook page](https://www.facebook.com/Computer-Networking-Principles-Protocols-and-Practice-129951043755620/)*
