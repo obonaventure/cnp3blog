@@ -23,7 +23,7 @@ footer-links:
   email:
   facebook: pages/Computer-Networking-Principles-Protocols-and-Practice/129951043755620
   flickr: #
-  github: obonaventure/cnp3
+  github: cnp3
   instagram: #
   linkedin: olivierbonaventure
   pinterest: #
@@ -43,14 +43,15 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://obonaventure.github.io
+#url: https://obonaventure.github.io
+url: https://blog.computer-networking.info
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/cnp3blog"
-
+#baseurl: "/cnp3blog"
+baseurl: "/"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -79,7 +80,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-plugins:
+plugins_dir:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
