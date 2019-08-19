@@ -44,7 +44,7 @@ google_analytics:
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 #url: https://obonaventure.github.io
-url: https://blog.computer-networking.info
+url: http://blog.computer-networking.info
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -87,7 +87,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-plugins_dir:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
@@ -98,5 +98,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
 
 theme: jekyll-theme-minimal
