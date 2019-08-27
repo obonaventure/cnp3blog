@@ -12,7 +12,7 @@ Another consequence of the widespread deployment of encryption is that it become
 On July 18th, 2019, a [bug report](https://bugzilla.mozilla.org/show_bug.cgi?id=1567114) was filed on Mozilla's bug tracker.
 
 
-![Bugzilla Kasakhstan]({{ site.baseurl }}/images/bugzill.png)
+![Bugzilla Kasakhstan]({{ site.baseurl }}/images/bugzilla.png)
 
 In a nutshell, users in Kazakhstan were forced to install a government-issued root-certificate that enabled them to place "transparent" proxies on all TLS traffic to decrypt it.
 
