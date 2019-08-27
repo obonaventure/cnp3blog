@@ -14,7 +14,7 @@ On July 18th, 2019, a [bug report](https://bugzilla.mozilla.org/show_bug.cgi?id=
 
 ![Bugzilla Kasakhstan]({{ site.baseurl }}/images/bugzill.png)
 
-In a nutshell, users in Kazakhstan were forced to install a government-issued root-certificate that enabled them to place proxies on all TLS traffic to decrypt it.
+In a nutshell, users in Kazakhstan were forced to install a government-issued root-certificate that enabled them to place "transparent" proxies on all TLS traffic to decrypt it.
 
 This bug report initiated a lot of discussions among browser implementors and activists. A detailed analysis of this HTTPS interception was published by Ram Sundara Raman et al on a [blog](https://censoredplanet.org/kazakhstan). This is not the first time that the Kazakh government tried to deploy its own root certificate as noted by Catalin Cimpanu in a [ZDnet article](https://www.zdnet.com/google-amp/article/kazakhstan-government-is-now-intercepting-all-https-traffic/?__twitter_impression=true).
 
