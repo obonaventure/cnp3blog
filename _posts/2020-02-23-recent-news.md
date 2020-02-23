@@ -12,7 +12,7 @@ of interest for readers of [Computer Networking: Principles, Protocols and Pract
 # Email
 
 
-  -[http://emailhistory.org/](http://emailhistory.org/) provides an interesting set of links and and mailing list on the history of email on the Internet
+  - [http://emailhistory.org/](http://emailhistory.org/) provides an interesting set of links and and mailing list on the history of email on the Internet
 
 # DNS
 
