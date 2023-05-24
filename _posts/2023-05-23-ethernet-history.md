@@ -5,7 +5,7 @@ tag: ethernet, history
 author: Olivier Bonaventure
 ---
 
-Ethernet is now the ubiquitous fixed Local Area Network technology. This technology was invented by [Bob Metcalfe](https://en.wikipedia.org/wiki/Robert_Metcalfe) and [David Boggs](https://www.nytimes.com/2022/02/28/technology/david-boggs-dead.html) at the Xerox'x Palo Alto Research Center (PARC) to connect the ALTO workstations and the first laser printers. In 2021, Bob Metcalfe shared a [dropbox](https://www.dropbox.com/sh/51l4x1p2e8lub5x/AABVgFyJ0fuia8QZt7SEZgBWa?dl=0) with several historical documents:
+Ethernet is now the ubiquitous fixed Local Area Network technology. This technology was invented by [Bob Metcalfe](https://en.wikipedia.org/wiki/Robert_Metcalfe) and [David Boggs](https://www.nytimes.com/2022/02/28/technology/david-boggs-dead.html) at the Xerox's Palo Alto Research Center (PARC) to connect the ALTO workstations and the first laser printers. In 2021, Bob Metcalfe shared a [dropbox](https://www.dropbox.com/sh/51l4x1p2e8lub5x/AABVgFyJ0fuia8QZt7SEZgBWa?dl=0) with several historical documents:
 
  - the seminal paper [Ethernet: Distributed Packet Switching for Local Computer Networks](https://www.dropbox.com/sh/51l4x1p2e8lub5x/AABUFDRx_2DetFdJHHMcLezMa/EthernetPaper.pdf?dl=0-) published in Communications of the ACM
  - the first internal [Memo](https://www.dropbox.com/sh/51l4x1p2e8lub5x/AACsoKm3rI95OCNo1sTz3ORWa/EthernetInventionMemo.pdf?dl=0) on Ethernet that was published on May 22th, 1973, exactly fifty years ago
