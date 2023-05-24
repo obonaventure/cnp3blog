@@ -13,7 +13,10 @@ Ethernet is now the ubiquitous fixed Local Area Network technology. This technol
  - a phot of the original [Ethernet inventors](https://www.dropbox.com/sh/51l4x1p2e8lub5x/AABVgFyJ0fuia8QZt7SEZgBWa?dl=0&preview=EthernetInventors.jpg)
 
 Earlier this year Bob Metcalfe received the [ACM Turing award](https://cacm.acm.org/careers/271168-acm-turing-award-honors-bob-metcalfe-for-ethernet/fulltext) for the invention of Ethernet. He gave a very interesting [keynote](https://www2023.thewebconf.org/program/live-stream-www/) at the web conference. 
+In addition to these historical resources, the IEEE 802 working group that manages the standardisation of all LAN technologies shared two interesting posts:
 
+ - A [picture of the cake](https://www.linkedin.com/feed/update/urn:li:activity:7066498052630437888/) to celebrate Ethernet's birthday
+ - A [timeline](https://standards.ieee.org/featured/ieee-802/?utm_source=listserv&utm_medium=organic&utm_campaign=ethernet-50) of the history of Ethernet
 
 
 This blog post was written to encourage the students who learned networking by reading the [Computer Networking: Principles, Protocols, and Practice](https://www.computer-networking.info) ebook to stay up to date and expand their knowledge of the networking technolgy.
