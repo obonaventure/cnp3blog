@@ -16,7 +16,7 @@ The best way to follow this blog is to point any ATOM compatible reader to the A
 The posts are also announced on three social networks. You can subscribe to any of these groups and see which social network tracks you or filters the posts from this blog:
  - [LinkedIn group for Computer Networking: Principles, Protocols and Practice](https://www.linkedin.com/groups/8836707/)
  - [Facebook page for Computer Networking: Principles, Protocols and Practice](https://www.facebook.com/Computer-Networking-Principles-Protocols-and-Practice-129951043755620/)
- - [Twitter account for Computer Networking: Principles, Protocols and Practice](https://twitter.com/cnp3_ebook) [@cnp3_ebook](https://twitter.com/cnp3_ebook)
+- [Mastodon account for Computer Networking: Principles, Protocols and Practice](https://mastodon.acm.org/@cnp3_ebook) [@cnp3_ebook](https://mastodon.acm.org/@cnp3_ebook)
 
 
 If you'd like to propose a blog post on a networking topic, please contact
