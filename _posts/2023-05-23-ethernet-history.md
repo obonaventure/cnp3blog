@@ -19,6 +19,11 @@ In addition to these historical resources, the IEEE 802 working group that manag
  - A [picture of the cake](https://www.linkedin.com/feed/update/urn:li:activity:7066498052630437888/) to celebrate Ethernet's birthday
  - A [timeline](https://standards.ieee.org/featured/ieee-802/?utm_source=listserv&utm_medium=organic&utm_campaign=ethernet-50) of the history of Ethernet
 
- RIPE Labs also published a [blog post](https://labs.ripe.net/author/ondrej_caletka_1/from-megabits-to-terabits-ethernet-celebrates-its-birthday/) that summarises the evolution of the Ethernet from 10 Mbps to 10 Gbps and beyond.
+RIPE Labs also published a [blog post](https://labs.ripe.net/author/ondrej_caletka_1/from-megabits-to-terabits-ethernet-celebrates-its-birthday/) that summarises the evolution of the Ethernet from 10 Mbps to 10 Gbps and beyond.
+
+Communications of the ACM published two interviews with Bob Metcalfe:
+
+ - [Still Networking](https://cacm.acm.org/magazines/2023/6/273245-still-networking/fulltext)
+ - [Making Connections](https://cacm.acm.org/magazines/2023/6/273232-making-connections/fulltext)
 
 This blog post was written to encourage the students who learned networking by reading the [Computer Networking: Principles, Protocols, and Practice](https://www.computer-networking.info) ebook to stay up to date and expand their knowledge of the networking technolgy.
