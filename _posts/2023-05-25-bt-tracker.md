@@ -5,7 +5,7 @@ tag: privacy
 author: Olivier Bonaventure
 ---
 
-We are clearly moving to the Internet of Things with more and more devices equipped with network interfaces. While Bluetooth was initially designed to connect small devices like earphones or microphones to smartphones, its low energy consumption has enabled new use cases. One of these use cases are the tracking tags such Apple's [AirTag](https://www.apple.com/airtag/) or [Tiles](https://be.tile.com/en).
+We are clearly moving to the Internet of Things with more and more devices equipped with network interfaces. While Bluetooth was initially designed to connect small devices like earphones or microphones to smartphones, its low energy consumption has enabled new use cases. One of these use cases are the tracking tags such Apple's [AirTag](https://www.apple.com/airtag/), [Tiles](https://be.tile.com/en) or the [trackers useable with Google's find my device](https://arstechnica.com/gadgets/2023/05/bluetooth-tags-for-androids-3-billion-strong-tracking-network-are-here/?utm_brand=arstechnica&utm_source=twitter&utm_social-type=owned&utm_medium=social) network.
 
 Thanks to these tags, anyone can find the current location of any object to which the tag is attached. This geolocation leverages all the deployed smartphones that listen to the Bluetooth emitted by these tags and report the tags that they heard to online services. Your smartphone probably contributes to the geolocation of tags placed by other users.
 
