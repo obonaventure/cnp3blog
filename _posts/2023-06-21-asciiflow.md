@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ASCIIFlow: an interactive web site to produce ASCII drawings
+title: ASCIIFlow - an interactive web site to produce ASCII drawings
 tag: tools
 author: Olivier Bonaventure
 ---
