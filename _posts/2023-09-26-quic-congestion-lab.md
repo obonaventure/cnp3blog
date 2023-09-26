@@ -15,7 +15,7 @@ During the summer, [Anthony Doeraene](https://github.com/Aperence), a student wh
 
 [Anthony Doeraene](https://github.com/Aperence) started from a simple lab with two clients, two servers and a bottleneck link.
 
-![lab.png]({{site.baseurl}}/images/lab.png]
+![lab.png]({{site.baseurl}}/images/lab.png)
 
 To demonstrate the importance of using congestion control schemes, he modified [aioquic](https://github.com/aiortc/aioquic) to disable the congestion controller and let the students explore the congestion collapse that occurs in this case if the senders use sending windows that are much larger than the router buffers. Then, the students explore the NewReno and Cubic congestion controllers. NewReno is the default congestion control scheme in [aioquic](https://github.com/aiortc/aioquic) but [Anthony Doeraene](https://github.com/Aperence)  added support for Cubic and also BBRv1 and BBRv2. With these congestion control schemes, the students explore the impact of the round-trip-time on the performance of the congestion control, the interactions between different congestion control schemes, ... The lab ends with an exploration of [FQ-Codel](https://datatracker.ietf.org/doc/html/rfc8290) and its importance to ensure fairness with unresponsive flows. In addition to having enhanced [aioquic](https://github.com/aiortc/aioquic) and the scripts to automate a dozen of experiments,  [Anthony Doeraene](https://github.com/Aperence) also wrote nice python scripts to help students to visualize the results of their experiments. The figure below shows the evolution of two NewReno senders sharing a bottleneck link.
 
