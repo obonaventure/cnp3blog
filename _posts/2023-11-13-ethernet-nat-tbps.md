@@ -1,0 +1,19 @@
+---
+layout: post
+title: Ethernet, Internet eXchange Points, eBPF, ...
+tag: ethernet, ebpf, IXP, history, Wi-Fi
+author: Olivier Bonaventure
+---
+
+[Ethernet](https://beta.computer-networking.info/syllabus/default/protocols/lan.html#ethernet) continues to evolve with innovation in the physical layer to support higher speeds on different types a links. A [short blog post](https://hackaday.com/2023/11/07/all-about-cats-and-what-ethernet-classifications-mean-beyond-bigger-number-better/) on the new types of Ethernet links such as Cat6, Cat7 and Cat8. An interesting set of pointers for networking students.
+
+Internet eXchange Points play an important in today's Internet by gathering tens, hundreds and sometimes thousands of network operators at the same place. They also carry a growing amount of traffic. To track this evolution, Thomas King, who leads DEC-IX, a German IXP, maintains a [list of the IXPs that carry more than 1 Tbps of traffic](https://github.com/tking/OneTeraBitClub). An interesting starting point for those willing to better understand Internet peering.  
+
+The [networking channel](https://networkingchannel.eu) is an informal online discussion among networking researchers. Twice per month, researchers discuss about topics of interest for the networking community. In a recent event, Henning Schulzrinne, David Oran, Jorg Ott, Craig Partridge and John Wroclawski shared the [lessons they learned from 40+ years of the Internet](https://networkingchannel.eu/lessons-learned-from-40-years-of-the-internet-downloads/).
+
+Today, a large fraction of the Internet hosts use the Linux kernel, on the server side, but also in various routers, IoT devices and smartphones. The Linux kernel is a huge monolithic operating system kernel that evolves slowly with a few releases per year. For several years, Linux kernel developers have pushed for making the kernel more flexible and easier to extend by adding support for [eBPF](https://ebpf.io). eBPF is a virtual machine that is integrated inside the Linux kernel and allows to execute bytecode pushed by the system administrator or some applications. eBPF brings a lot of flexibility to the kernel and also to its networking stack. A [recent 30 minutes long documentary](https://isovalent.com/blog/post/ebpf-documentary-creation-story/) briefly explains the motivation and the key design choices for this new technology. Researchers and network developers have adopted eBPF support very different use cases, including supporting [network programming with IPv6 Segment Routing](https://inl.info.ucl.ac.be/system/files/1810.10247.pdf), extending [TCP and Multipath TCP](https://dial.uclouvain.be/pr/boreal/object/boreal%3A235010/datastream/PDF_01/view), making [QUIC dynamically extensible](https://inl.info.ucl.ac.be/system/files/pquic.pdf) or [enabling faster innovation in BGP](https://www.usenix.org/system/files/nsdi23-wirtgen.pdf). 
+
+As more fiber gets deployed in cities, users can expect better performance and higher throughput. In these networks, the access networks is less often the bottleneck than in xDSL and cable networks. However, many users mainly use Wi-Fi to access the Internet. A [recent measurement study](https://arxiv.org/pdf/2311.05499.pdf) shows that for these users Wi-Fi can become a serious bottleneck that limits their network performance.
+
+
+This blog aims at encouraging students who read the open [Computer Networking: Principles, Protocols and Practice](https://www.computer-networking.info) ebook to explore new networking topics. You can follow this blog by subscribing to its [RSS feed](http://blog.computer-networking.info/feed.xml) or by following [@cnp3_ebook on mastodon](https://mastodon.acm.org/@cnp3_ebook). 
