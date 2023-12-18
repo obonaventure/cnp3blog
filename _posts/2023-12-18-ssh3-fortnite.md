@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Doom and L4S
-tag: games, broadcast, latency
+title: Secure shell over HTTP/3, Fortnite versus football, Cloudflare radar, contributing to Wireshark and latency
+tag: ssh, measurements, wireshark latency
 author: Olivier Bonaventure
 ---
 
