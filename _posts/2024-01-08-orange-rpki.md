@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Beware of RPKI, 
-tag: BGP, RPKI, password, 
+title: Beware of RPKI, DNS and PNG
+tag: BGP, RPKI, password, dns, java
 author: Olivier Bonaventure
 ---
 
