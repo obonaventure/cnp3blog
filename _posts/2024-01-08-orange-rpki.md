@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beware of RPKI, DNS and PNG
+title: Be aware of RPKI, DNS and PNG
 tag: BGP, RPKI, password, dns, java
 author: Olivier Bonaventure
 ---
@@ -10,7 +10,9 @@ During the first week of 2024, Orange Spain suffered from a sudden traffic drop.
 ![Traffic drop in Orange Spain]({{site.baseurl}}/images/cloudflare-orange.png)
 
 
-This sudden drop of traffic was caused by an unusual problem that affected Orange Spain. During the last years, many operators have deployed the RPKI to secure interdomain routing. Network operators publish use the RPKI to bind their AS number to the IP prefixes that they advertise. A growing number of network operators use the RPKI to validate the BGP messages that they receive and a fraction of them block the BGP announcements that originate from AS numbers that do not match the RPKI data. Network operators can publish the RPKI data for their prefixes directly or using third parties such as RIPE. Orange Spain did not publish RPKI information for its prefixes. Unfortunately, it used a weak password on the RIPE website and an attacker impersonated Orange Spain on RIPE servers to publish a certificate that associates some IP prefixes from Orange Spain to another AS number. Internet routers then used this fake RPKI information to reject the BGP announcements from Orange Spain.
+This sudden drop of traffic was caused by an unusual problem that affected Orange Spain. During the last years, many operators have deployed the RPKI to secure interdomain routing, which improves the security of interdomain routing. Network operators publish use the RPKI to bind their AS number to the IP prefixes that they advertise. A growing number of network operators use the RPKI to validate the BGP messages that they receive and a fraction of them block the BGP announcements that originate from AS numbers that do not match the RPKI data. This has prevented hijacking attacks.
+
+Network operators can publish the RPKI data for their prefixes directly or using third parties such as Interner Routing Registries like RIPE. Orange Spain did not publish RPKI information for its prefixes but suffered from a new type of attack. Orange Spain used a weak password on the RIPE website and an attacker impersonated Orange Spain on RIPE servers to publish a fake Route Origin Authorization that associates some IP prefixes from Orange Spain to different AS number. As Orange Spain used their regular AS number to advertise this prefix, BGP routers from ASes that ise APKI considered this announcement to be invalid according to the RPKI information andrejected the BGP annoucement. The weak password used by Orange Spain resulted in a new form of denial of service attack...
 
 Several network engineers published an interesting analysis of this new type of attack:
 
@@ -22,7 +24,7 @@ Several network engineers published an interesting analysis of this new type of 
 In addition, Job Snider's [summary](https://mailman.nanog.org/pipermail/nanog/2024-January/224318.html) of the evolution of RPKI in 2023 is also very interesting.
 
 
-If you own IP prefixes, make sure that you need strong passwords and two factors authentication on the Internet Routing Registries...
+If you own IP prefixes, make sure that you use strong passwords and two factors authentication on the Internet Routing Registries...
 
 The [Domain Name System](https://beta.computer-networking.info/syllabus/default/protocols/dns.html) is one of key Internet protocols. This is also an example of protocol that sends binary messages inside UDP segments. The format of the DNS messages has been optimized to reduce the length of the UDP segments. The DNS is also a nice example for students willing to write a first implementation that sends real Internet protocol messages. A [recent blog](https://beta.computer-networking.info/syllabus/default/protocols/dns.html) describes how to encode DNS messages in Java.
 
