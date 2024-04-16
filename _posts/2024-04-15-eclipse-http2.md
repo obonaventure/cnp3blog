@@ -15,7 +15,7 @@ Last week, a backdoor in the widely used xzutils package was detected before the
 
 There are also ongoing attacks that affect different implementations of HTTP/2. HTTP/2 is a binary protocol that contains several types of frames. A new type of attack described in details in a [blog post](https://nowotarski.info/http2-continuation-flood-technical-details/) abuses the HTTP/2 CONTINUATION frames to cause memory exhaustion on servers.
 
-DebugBear analyzes [the time to load web pages on many websites](https://www.debugbear.com/blog/page-speed-2024) by leveraging the [Google Chrome CrUX dataset](https://www.debugbear.com/blog/chrome-user-experience-report] that collects speed information from many real chrome users. The average page load time is 1.3 seconds, with desktop being slightly faster than mobile. During the last the page load time has decreased slowly.
+DebugBear analyzes [the time to load web pages on many websites](https://www.debugbear.com/blog/page-speed-2024) by leveraging the [Google Chrome CrUX dataset](https://www.debugbear.com/blog/chrome-user-experience-report that collects speed information from many real chrome users. The average page load time is 1.3 seconds, with desktop being slightly faster than mobile. During the last the page load time has decreased slowly.
 
 ![page load times]({{site.baseurl}}/images/debugbear-plt.png)
 
