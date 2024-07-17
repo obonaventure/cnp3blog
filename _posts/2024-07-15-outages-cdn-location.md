@@ -1,0 +1,16 @@
+---
+layout: post
+title: Reflections on outages, evolution of the CDN market, location data
+tag: failures, cdn, privacy
+author: Olivier Bonaventure
+---
+
+Link and routers fails, but routing protocols have been designed to cope with these failures and preserve connectivity. While most failures are caused by hardware issues or software bugs, some outages that affect network and servers are caused by configuration errors. A small change in the configuration of one of a few devices can have a huge effect on a network. In some cases, configurations changes have caused a cascade of problems that brought complete networks down. Andree Toonk published a very interesting [blog post](https://pulse.internetsociety.org/blog/navigating-infrastructure-outages-battle-scars-and-lessons-learned) were he discusses some of the lessons which can be learned from large outages.
+
+Content Distribution Networks (CDN) like Akamai, Cloudflare, Cloudfront or Fastly are companies that have deployed many servers around the world. The CDNs leverage these servers to distribute content on behalf of various companies and media producers. These CDNs serve a large fraction of the content which is distributed over the Internet. On an interesting [blog post](https://www.streamingmediablog.com/2024/07/cdn-market-size.html), Dan Rayburn analyzes the evolution of the revenue of these CDN services. This market is worth about $5B in 2023 and excludes companies that hosts their own servers to distribute contents like Netflix or Youtube. Surprisingly, this market is not expected to grow by more than 3% in 2024, which is about the inflation rate. This plateau in terms of revenue does not necessarily correspond to a plateau in terms of traffic served by these CDNs.
+
+Many smartphone apps and websites collect location data about users through various means. While this data can be useful for the application itself, e.g. to show the weather at the user's location, it is usually sold to data brokers that resell this information to marketing companies and other types of "users". German journalists from BR and activists from [netzpolitik.org](https://netzpolitik.org) obtained sample location data from such a broker and analyzed it. They received 3.6 billion data points free of charge as a sample. From this very sample, they managed to detect some users who were often visiting classified sites such as military bases or highly secure foreign intelligence sites. You might want to read their [study](https://interaktiv.br.de/ausspioniert-mit-standortdaten/en/index.html) the next time a website or an app wants to use your location data...
+
+
+
+This blog aims at encouraging students who read the open [Computer Networking: Principles, Protocols and Practice](https://www.computer-networking.info) ebook to explore new networking topics. You can follow this blog by subscribing to its [RSS feed](http://blog.computer-networking.info/feed.xml) or by following [@cnp3_ebook on mastodon](https://mastodon.acm.org/@cnp3_ebook). Feel free to share the posts that you find interesting on your preferred social network.
