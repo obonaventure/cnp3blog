@@ -1,5 +1,5 @@
 layout: post
-title: Internet scanning, Latencies, Internet satellites make astronomers angry, Encrypted Client Hello canot be disabled on Chrome, New compression techniques, Cryptography 101, your Smart TV probably spies on you, round robin DNS, OVH failure, ...
+title: Internet scanning, Latencies, Internet satellites make astronomers angry, Encrypted Client Hello canot be disabled on Chrome, New compression techniques, Cryptography 101, your Smart TV probably spies on you, round robin DNS, OVH failure
 tag: scan, privacy, tls, compression, cryptography
 author: Olivier Bonaventure
 ---
@@ -10,9 +10,9 @@ Networking students know that latency is a key performance characteristic in man
 
 ![Latencies that every programmer should know]({{site.baseurl}}/images/Latencies.png)
  Source: cheat.sh
-.ing.info) website, which is served by the GitHub CDN. 
 
-![Latencies to the www.computer-networking.info website]({{site.baseurl}}/images/Geofectcher1.png)
+
+![Latencies to the www.computer-networking.info website]({{site.baseurl}}/images/Geofetcher1.png)
 
 
 ![Latencies to the blog.computer-networking.info web site]({{site.baseurl}}/images/Geofetcher2.png)
@@ -36,8 +36,7 @@ Two letters, two-level domain names correspond to internationally recognized cou
 
 [comment]: <> (fin de OCSP chez Letsencrypt pour des raisons de privacy https://letsencrypt.org/2024/07/23/replacing-ocsp-with-crls/)
 
-[comment]: <> (managing 14k devices using python, lots of info on how to use tcp
-https://thegraynode.io/posts/pushing_python_to_its_limits/)
+[comment]: <> (managing 14k devices using python, lots of info on how to use tcp https://thegraynode.io/posts/pushing_python_to_its_limits/)
 
 An interesting [blog post](https://subseacables.blogspot.com/2024/10/buyer-pricing-guidance-atlantic.html) reveals the cost of 100 Gbps links across the Atlantic. 
 
@@ -56,7 +55,7 @@ A [recent study](https://www.opensignal.com/2024/10/31/wi-fi-drives-smartphone-d
 
 At the end of October, OVH, a French cloud provider, suffered from a routing problem. Cloudflare provides [some information](https://blog.cloudflare.com/cloudflare-perspective-of-the-october-30-2024-ovhcloud-outage) about the reasons for this outage. Shortly after, Octave Klaba, OVH's founder and CEO, confirmed that the problem was caused by one of their upstreams, WorldStream, announcing too many prefixes. 
 
-![OVH deploys max prefix]({{site.baseurl}}/images/Ovh-maxpre.png)
+![OVH deploys max prefix]({{site.baseurl}}/images/Ovh-maxprefix.png)
 
 [comment]: <> (XFRM IPSec in Linux https://pchaigno.github.io/ebpf/2024/10/30/linux-xfrm-ipsec-reference-guide.html)
 
