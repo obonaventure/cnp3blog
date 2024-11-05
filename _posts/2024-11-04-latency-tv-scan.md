@@ -1,3 +1,4 @@
+---
 layout: post
 title: Internet scanning, Latencies, Internet satellites make astronomers angry, Encrypted Client Hello canot be disabled on Chrome, New compression techniques, Cryptography 101, your Smart TV probably spies on you, round robin DNS, OVH failure
 tag: scan, privacy, tls, compression, cryptography
