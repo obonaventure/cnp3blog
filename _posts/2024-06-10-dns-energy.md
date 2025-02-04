@@ -20,7 +20,7 @@ The [APNIC blog](https://blog.apnic.net) published an interesting [post](https:/
 Network operators are more concerned about the energy consumed by their networks. Router vendors are making progress in tuning their equipment to use less energy. In two interesting videos, Nicolas Fevrier analyzes the power consumption of Juniper routers and how it can be optimized. The [first video](https://www.youtube.com/watch?v=-aEYNDRB9Ck) discusses the main factors that influence the power consumption of ISP routers. The [second video](https://www.youtube.com/watch?v=TNDoGGC0jqk) describes how operators can configure some of their routers to use less energy. There is a bit of marketing in this video, but it provides real numbers that are interesting.
 
 
-https://github.com/fujiapple852/trippy
+
 
 
 
