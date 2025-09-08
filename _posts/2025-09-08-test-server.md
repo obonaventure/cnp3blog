@@ -31,7 +31,8 @@ We also support the Discard protocol defined in [RFC863](https://datatracker.iet
 ```
 nc discard.computer-networking.info 9
 Hello
-^C```
+^C
+```
 
 And for UDP:
 
