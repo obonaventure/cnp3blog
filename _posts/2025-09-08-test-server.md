@@ -11,11 +11,13 @@ The first service is the `echo` service defined in [RFC862](https://datatracker.
 
 Students can test this service using `telnet`, [netcat/nc](https://en.wikipedia.org/wiki/Netcat) or even `curl`.
 
-```nc echo.computer-networking.info 7
+```
+nc echo.computer-networking.info 7
 Hello
 Hello
 ^C
 ```
+
 ```
 curl telnet://echo.computer-networking.info:7
 Hello
@@ -26,7 +28,8 @@ RFC862 also defines this service for UDP, but blindly echoing UDP messages is ri
 
 We also support the Discard protocol defined in [RFC863](https://datatracker.ietf.org/doc/html/rfc863). This service simply accepts TCP connections or UDP messages on port 9 and simply discards them without any reply.
 
-```nc discard.computer-networking.info 9
+```
+nc discard.computer-networking.info 9
 Hello
 ^C```
 
