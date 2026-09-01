@@ -31,7 +31,7 @@ Artem Berezin uses the information stored in the DNS, e.g. MX records, to identi
 Fifty years ago, the [first packets were exchanged over the ARPANET using packet radio](https://stefanbohacek.online/@stefan/117167402865398907).
 
 
-A [BGP hijack](https://www.virtualizor.com/blog/security-incident-bgp-hijacking/) affected [Virtualizor](https://www.virtualizor.com/blog/security-incident-bgp-hijacking/).
+A [BGP hijack](https://www.virtualizor.com/blog/security-incident-bgp-hijacking/) affected [Virtualizor](https://www.virtualizor.com/blog/security-incident-bgp-hijacking/). An attacker announced a prefix owned by virtualizor that contained the 	address of its software update server. During the hijack, the attacker exposed a valid TLS certificate and clients updated the software without any cryptographic validation.An attacker announced a prefix owned by virtualizor that contained the address of its software update server. During the hijack, the attacker exposed a valid TLS certificate and clients updated the software without any cryptographic validation.
 
 
 This blog aims at encouraging students who read the open [Computer Networking: Principles, Protocols and Practice](https://www.computer-networking.info) ebook to explore new networking topics. You can follow this blog by subscribing to its [RSS feed](http://blog.computer-networking.info/feed.xml) or by following [@cnp3_ebook on mastodon](https://mastodon.acm.org/@cnp3_ebook). Feel free to share the posts that you find interesting on your preferred social network.
